@@ -4,7 +4,6 @@ import NoResults from './NoResults';
 
 const Gallery = (props, { match }) => {
     let results = props.data;
-    console.log(results);
     let photos = ' '
     let title = props.query;
 

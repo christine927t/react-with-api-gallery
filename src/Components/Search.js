@@ -9,7 +9,6 @@ class Search extends React.Component {
 
   onSearchChange = e => {
     this.setState({ searchText: e.target.value });
-    console.log(this.query.value)
   };
 
   handleSubmit = e => {

@@ -17,10 +17,8 @@ import NotFound from './Components/NotFound';
 
 //get URL for search query word
 const url = window.location
-console.log(url)
 const urlObject = new URL(url);
 const search = urlObject.searchParams.get('search')
-console.log(search)
 
 export default class App extends Component {
   constructor(props) {
