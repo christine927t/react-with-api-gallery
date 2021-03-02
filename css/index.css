@@ -4,7 +4,11 @@ body {
   color: #3f4850;
 }
 
+h1{
+  color: #013f6b; 
+}
 h2 {
+  color: #013f6b; 
   font-size: 2em;
   margin: 52px 0 40px;
   text-transform: capitalize;
